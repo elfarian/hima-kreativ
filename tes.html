@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset='UTF-8'>
+	
+	<title>Animasi Loading Saat Pertama Membuka Website</title>
+	<meta name="description" content="Menampilkan animasi loading saat membuka website" /> 
+	<meta name="keywords" content="website animation, loading animation, jquery animation, jquery loading, preloader, animasi loading" />
+	<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200' rel='stylesheet' type='text/css'>
+	<style>
+		*{
+			padding: 0;margin: 0;
+		}
+		a{
+			text-decoration: none;
+			color: #333;
+		}
+		body{
+			background:#ddd url('http://subtlepatterns.com/patterns/textured_paper.png');
+			font-family: 'Titillium Web', sans-serif;
+		}
+		iframe{
+			margin: 20px 0;
+		}
+		h1{
+			text-align: center;
+		}
+		h2{
+			margin: 15px 0;
+			line-height: 1em;
+			font-size: 17px;
+		}
+		p{
+			margin:10px 0;
+		}
+		#loading {
+			position: fixed;
+			left: 0px;
+			top: 0px;
+			width: 100%;
+			height: 100%;
+			z-index: 9999;
+			background: url(http://pixolid.com/site_images/loading.gif) 50% 50% no-repeat #fff;
+		}
+		.container{
+			width: 730px;
+			margin: 0 auto;
+			padding: 20px;
+			background: #fff;
+		}
+			header{
+
+			}
+			.content img{
+				width: 240px;
+				height: 200px;
+			}
+	</style>
+
+	<!-- jQuery Plugin -->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
+	 
+	<!-- Preloader -->
+	<script type="text/javascript">
+		$(window).load(function() { $("#loading").fadeOut("slow"); })
+	</script>
+
+</head>
+<body>
+
+	<div id="loading"></div>
+
+	<div class="container">
+		<header>
+			<h1><a href="http://www.tutorial-webdesign.com">Tutorial-webdesign.com</a></h1>
+			<h2>Contoh Menampilkan Animasi Loading Saat Pertama Kali Membuka Website</h2>
+			<p><a href="http://www.tutorial-webdesign.com/menampilkan-animasi-loading-saat-pertama-membuka-website">Back to tutorial</a></p>
+		</header>
+
+		<section>
+				<div class="content">
+					<img src="http://farm9.staticflickr.com/8091/8591840409_d2a5f99cb3_z.jpg" alt="">
+					<img src="http://farm7.staticflickr.com/6032/6370515893_c457ce468c_z.jpg" alt="">
+					<img src="http://farm5.staticflickr.com/4097/4763223883_f263d64764_z.jpg" alt="">
+					<img src="http://farm9.staticflickr.com/8088/8554235711_ab6a7f8990_z.jpg" alt="">
+					<img src="http://farm6.staticflickr.com/5094/5394104897_b525afefe8_z.jpg" alt="">
+					<img src="http://farm5.staticflickr.com/4045/4330162972_c1f7af2ba2_z.jpg?zz=1" alt="">
+					<img src="http://farm4.staticflickr.com/3062/2680808283_9232c68018_z.jpg" alt="">
+					<img src="http://farm9.staticflickr.com/8088/8554235711_ab6a7f8990_z.jpg" alt="">
+					<img src="http://farm6.staticflickr.com/5094/5394104897_b525afefe8_z.jpg" alt="">
+					<img src="http://farm5.staticflickr.com/4045/4330162972_c1f7af2ba2_z.jpg?zz=1" alt="">
+					<img src="http://farm5.staticflickr.com/4097/4763223883_f263d64764_z.jpg" alt="">
+					<img src="http://farm9.staticflickr.com/8088/8554235711_ab6a7f8990_z.jpg" alt="">
+					<img src="http://farm9.staticflickr.com/8091/8591840409_d2a5f99cb3_z.jpg" alt="">
+					<img src="http://farm7.staticflickr.com/6032/6370515893_c457ce468c_z.jpg" alt="">
+					<img src="http://farm5.staticflickr.com/4097/4763223883_f263d64764_z.jpg" alt="">
+					<img src="http://farm9.staticflickr.com/8088/8554235711_ab6a7f8990_z.jpg" alt="">
+					<img src="http://farm6.staticflickr.com/5094/5394104897_b525afefe8_z.jpg" alt="">
+					<img src="http://farm5.staticflickr.com/4045/4330162972_c1f7af2ba2_z.jpg?zz=1" alt="">
+
+				</div> <!-- /.content -->
+		</section> <!-- /section -->
+
+	</div> <!-- /.container -->
+
+</body>
+</html>
