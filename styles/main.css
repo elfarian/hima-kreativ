@@ -625,6 +625,7 @@ figure {
 
 .gallery-page .card {
     background-color: transparent;
+    border: none;
 }
 
 .gallery-page .card-gallery img {
